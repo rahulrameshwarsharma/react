@@ -1,1 +1,1 @@
-echo "# react"
+# React code revision notes.
