@@ -1,0 +1,46 @@
+/* -------------------------------- Developers Code ----------------- */
+
+.mainWrapper {
+    background: #717171;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    padding: 3rem 0 3rem 0;
+  }
+
+  .formWrapper {
+    position: relative;
+  }
+  
+  .formWrapper div:nth-child(1), .formWrapper div:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    color: black;
+    border-radius: 1rem;
+    margin: 1rem 2rem 1rem 2rem;
+  }
+  .formWrapper div:nth-child(2) button {
+    position: absolute;
+    top: 7.7rem;
+  }
+  .formWrapper div:nth-child(4) button {
+    width: 32rem;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    margin: 2rem 2rem 1rem 2rem;
+  }
+  .wrapper div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .wrapper div:nth-child(1) input, .wrapper div:nth-child(1) input, .wrapper :nth-child(2) select{
+    background-color: #313131;
+    height: 2rem;
+    padding: 0.5rem;
+  }
