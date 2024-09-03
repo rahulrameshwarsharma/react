@@ -1,0 +1,71 @@
+/* ---------------------------------- Header ---------------------------- */
+li {
+    display: inline-block;
+}
+
+.mainWrapper header nav {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 2rem 5rem 2rem 5rem;
+    place-items: center;
+}
+
+.mainWrapper header nav div li {
+    padding-right: 2rem;
+    color: black;
+}
+.mainWrapper header nav div:last-child li:last-child {
+    background: red;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+}
+.colorBtn {
+    color: #ffffff;
+}
+
+
+.headerLogo {
+    height: 5rem;
+    width: 11rem;
+}
+
+.activeNavlink {
+    color: red;
+}
+.inActiveNavlink {
+    color: black;
+}
+
+/* ---------------------------------- Home ------------------------------ */
+.homeWrapper {
+    height: 50vh;
+    width: 96vw;
+    margin: 0 2rem 2rem 2rem;
+    background: #fe5f55;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    place-items: center;
+}
+
+.homeWrapper span {
+    margin-right: 2rem;
+}
+
+.homeWrapper span:nth-child(2) img {
+    display: inline;
+    width: 15rem;
+}
+
+/* ---------------------------------- Footer ---------------------------- */
+.footerWrapper {
+    height: 20vh;
+    width: 96vw;
+    margin: 0 2rem 0 2rem;
+    background: #fe5f55;
+    text-align: center;
+    padding-top: 3rem;
+}
