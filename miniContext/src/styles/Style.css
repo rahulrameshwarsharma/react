@@ -1,0 +1,31 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.mainWrapper {
+    line-height: 3rem;
+    display: flex;
+    place-items: center;
+    gap: 2rem;
+}
+.mainWrapper span{
+    font-size: large;
+    font-weight: bolder;
+    margin: 3rem 0 0 20rem;
+}
+.mainWrapper input{
+    height: 2.4rem;
+    margin-right: 2rem;
+    border-radius: 1rem;
+    box-shadow: none;
+    padding-left: 1rem;
+}
+.mainWrapper button{
+    border: 1px solid orangered;
+}
